@@ -96,6 +96,7 @@ button{
         width: 375px;
         background-color:  hsl(30, 38%, 92%);
         border-radius: 10px;
+        flex-direction: column;
     }
     .flexbox-item1{
         width: 375px;
