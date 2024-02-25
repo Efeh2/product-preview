@@ -94,21 +94,21 @@ button{
         height: 550px;
         width: 375px;
         background-color:  hsl(30, 38%, 92%);
-        border-radius: 10px;
         flex-direction: column;
+        display: grid;
     }
     .flexbox-item1{
-        width: 300px;
+        width: 350px;
         height: 200px;
         content: url(./images/image-product-mobile.jpg);
     }
     .image{
-        width: 300px;
+        width: 350px;
         height: 200px;
     }
     .flexbox-item2{
         width: 300px;
-        height: 400px;
+        height: 450px;
         background-color: hsl(0, 0%, 100%);
         padding-inline: 20px;
     }
