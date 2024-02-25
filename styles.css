@@ -91,7 +91,6 @@ button{
 }
 @media screen and (max-width: 700px) {
     .flexbox-container{
-        position: relative;
         height: 550px;
         width: 375px;
         background-color:  hsl(30, 38%, 92%);
@@ -102,6 +101,10 @@ button{
         width: 300px;
         height: 200px;
         content: url(./images/image-product-mobile.jpg);
+    }
+    .image{
+        width: 300px;
+        height: 200px;
     }
     .flexbox-item2{
         width: 300px;
