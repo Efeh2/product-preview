@@ -98,7 +98,7 @@ button{
         display: grid;
     }
     .flexbox-item1{
-        width: 300px;
+        width: 330px;
         height: 200px;
         content: url(./images/image-product-mobile.jpg);
         border-top-left-radius: 5px;
