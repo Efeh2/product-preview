@@ -98,11 +98,12 @@ button{
         display: grid;
     }
     .flexbox-item1{
-        width: 350px;
+        width: 300px;
         height: 200px;
         content: url(./images/image-product-mobile.jpg);
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
     }
     .flexbox-item2{
         width: 300px;
@@ -111,6 +112,7 @@ button{
         padding-inline: 20px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+        border-top-right-radius: 0%;
     }
     h1{
         padding: 1rem;
