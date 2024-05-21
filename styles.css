@@ -91,28 +91,26 @@ button{
 }
 @media screen and (max-width: 700px) {
     .flexbox-container{
-        height: 550px;
-        width: 375px;
-        background-color:  hsl(30, 38%, 92%);
-        flex-direction: column;
         display: grid;
+        justify-content: center;
+        align-items: center;
     }
     .flexbox-item1{
-        width: 340px;
+        width: 360px;
         height: 200px;
         content: url(./images/image-product-mobile.jpg);
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
     }
     .flexbox-item2{
-        width: 300px;
-        height: 410px;
+        width: 320px;
+        height: 358px;
         background-color: hsl(0, 0%, 100%);
         padding-inline: 20px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        border-top-right-radius: 0%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     h1{
         padding: 1rem;
@@ -148,17 +146,19 @@ button{
         font-family: "Fraunces", sans-serif;
         font-weight: 700;
         margin-right: 12px;
+        font-size: 35px;
     }
     h5{
         color:   hsl(228, 12%, 48%);
         text-decoration: line-through;
-        margin-right: 20px;
-        margin-top: 5px;
+        margin-right: 23px;
+        margin-top: 15px;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
+        font-size: 15px;
     }
     button{
-        width: 200px;
+        width: 300px;
         height: 40px;
         background-color:  hsl(158, 36%, 37%);
         margin-left: 10px;
